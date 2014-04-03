@@ -1,0 +1,17 @@
+{
+    "name": "textmagic/smsphp",
+    "description": "TextMagicSMS API PHP with PSR-0 and Composer/Packagists Library",
+    "type": "library",
+    "license": "BSD license",
+    "keywords": ["sms", "php", "textmagic"],
+
+    "require": {
+        "php": ">=5.3"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "TextMagicSMS": "src/"
+        }
+    }
+}
